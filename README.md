@@ -32,6 +32,7 @@ The Q outputs of each flip-flop will serve as the respective binary bits of the 
  
 
 Four-bit “Up” Counter
+
 ![image](https://user-images.githubusercontent.com/36288975/169644758-b2f4339d-9532-40c5-af40-8f4f8c942e2c.png)
 
 
@@ -42,6 +43,7 @@ As well as counting “up” from zero and increasing or incrementing to some pr
 
 This type of counter is normally referred to as a Down Counter, (CTD). In a binary or BCD down counter, the count decreases by one for each external clock pulse from some preset value. Special dual purpose IC’s such as the TTL 74LS193 or CMOS CD4510 are 4-bit binary Up or Down counters which have an additional input pin to select either the up or down count mode.
 ![image](https://user-images.githubusercontent.com/36288975/169644844-1a14e123-7228-4ed8-81a9-eb937dff4ac8.png)
+
 
 
 4-bit Count Down Counter
@@ -82,17 +84,15 @@ begin
 	A[3]=1^A[3];
 end
 endmodule
-
-
-
-
-
 ```
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER:
 i.)Upcounter:
+
 ![WhatsApp Image 2023-05-29 at 09 31 52](https://github.com/shoaib3136/Exp-7-Synchornous-counters-/assets/117919362/5aeccff0-1ce5-4410-ae43-6ce37d9e25cf)
 
+
 ii.)Downcounter:
+
 ![WhatsApp Image 2023-05-29 at 09 46 55](https://github.com/shoaib3136/Exp-7-Synchornous-counters-/assets/117919362/ab165f81-0fcb-4223-a1db-7abf765093e1)
 
 
@@ -102,11 +102,16 @@ ii.)Downcounter:
 
 
 
+
 ### TIMING DIGRAMS FOR COUNTER :
+
 i.) Upcounter:
+
 ![image](https://github.com/shoaib3136/Exp-7-Synchornous-counters-/assets/117919362/a6d09728-2548-4dfb-807e-228cd3add169)
 
+
 ii.)Downcounter:
+
 ![image](https://github.com/shoaib3136/Exp-7-Synchornous-counters-/assets/117919362/b02dc6e9-93cc-4d7b-947b-61fafe739c1a)
 
 
@@ -114,6 +119,14 @@ ii.)Downcounter:
 
 
 ### TRUTH TABLE:
+i.)Upcounter:
+
+![image](https://github.com/shoaib3136/Exp-7-Synchornous-counters-/assets/117919362/d402e02f-9271-4c02-9567-98da27b0c25e)
+
+ii.)Downcounter:
+
+![image](https://github.com/shoaib3136/Exp-7-Synchornous-counters-/assets/117919362/eb81454c-2f0a-40f8-a3b6-48a25970318f)
+
 
 
 
